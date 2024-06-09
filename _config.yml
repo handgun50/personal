@@ -9,11 +9,14 @@
 # --- Required options --- #
 ############################
 
+# For vercel
+url: "https://adrianwahyudi17.vercel.app"
+
 # Name of website
-title: My website
+title: Home
 
 # Your name to show in the footer
-author: Some Person
+author: Adrian Wahyudi
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +24,19 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects:
+    - AskFM: "/projects/askfm"
+    - BCA Transaction Notifier: "/projects/bca"
+  Games:
+    - Arknights: "/games/arknights"
+    - Mobile Legend Adventure: "/games/mobile-legend-adventure"
+    - Family Farm Adventure: "/games/family-farm-adventure"
+    - Genshin Impact: "/games/genshin-impact"
+    - Ghost Trappers: "/games/ghost-trappers"
+    - Harvest Town: "/games/harvest-town"
+    - Homescapes: "/games/homescapes"
+    - MouseHunt: "/games/mousehunt"
+    - Pokemon: "/games/pokemon"
 
 ################
 # --- Logo --- #
@@ -50,21 +62,21 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  #email: "someone@example.com"
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: adrian.wahyudi.17
+  #github: daattali
+  twitter: adrianwahyudi17
+  #patreon: DeanAttali
+  #youtube: "@daattali"
+  #whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: adrianwahyudi17
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -100,7 +112,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "adrianwahyudi17.vercel.app"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
